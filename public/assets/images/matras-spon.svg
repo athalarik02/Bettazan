@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" fill="none">
+  <rect width="800" height="533" fill="#EEF3EE" />
+  <circle cx="400" cy="270" r="210" fill="#E2EBE2" />
+  <ellipse cx="400" cy="430" rx="220" ry="24" fill="#C5D3C5" />
+
+  <g id="matras-spon">
+    <!-- Rolled EVA Foam Sleeping Pad -->
+    <!-- Rolled End Circular Spiral -->
+    <ellipse cx="270" cy="290" rx="75" ry="95" fill="#33383B" />
+    <ellipse cx="270" cy="290" rx="55" ry="70" fill="#464D51" stroke="#252A2D" stroke-width="4" />
+    <ellipse cx="270" cy="290" rx="35" ry="45" fill="#586166" stroke="#252A2D" stroke-width="4" />
+    <ellipse cx="270" cy="290" rx="15" ry="20" fill="#252A2D" />
+
+    <!-- Unrolled Cylinder Body extending to the right -->
+    <path d="M270 195 L590 195 C630 195, 630 385, 590 385 L270 385 Z" fill="#3D4448" />
+    <!-- 3D Cylinder Right Cap -->
+    <ellipse cx="590" cy="290" rx="40" ry="95" fill="#2E3336" />
+
+    <!-- Waffle Textured Grooves / Ridges across body -->
+    <line x1="330" y1="195" x2="330" y2="385" stroke="#282D30" stroke-width="5" stroke-dasharray="6 8" />
+    <line x1="380" y1="195" x2="380" y2="385" stroke="#282D30" stroke-width="5" stroke-dasharray="6 8" />
+    <line x1="430" y1="195" x2="430" y2="385" stroke="#282D30" stroke-width="5" stroke-dasharray="6 8" />
+    <line x1="480" y1="195" x2="480" y2="385" stroke="#282D30" stroke-width="5" stroke-dasharray="6 8" />
+    <line x1="530" y1="195" x2="530" y2="385" stroke="#282D30" stroke-width="5" stroke-dasharray="6 8" />
+
+    <!-- Compression Straps (Yellow/Gold) -->
+    <rect x="345" y="190" width="22" height="198" rx="6" fill="#D8A441" />
+    <rect x="340" y="275" width="32" height="18" rx="4" fill="#17251B" />
+    
+    <rect x="505" y="190" width="22" height="198" rx="6" fill="#D8A441" />
+    <rect x="500" y="275" width="32" height="18" rx="4" fill="#17251B" />
+  </g>
+</svg>

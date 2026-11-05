@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" fill="none">
+  <rect width="800" height="533" fill="#EEF3EE" />
+  <circle cx="400" cy="270" r="210" fill="#E2EBE2" />
+  <ellipse cx="400" cy="430" rx="190" ry="20" fill="#C5D3C5" />
+
+  <g id="headlamp-led">
+    <!-- Wide Elastic Headband (Forest Green & Mountain Pattern) -->
+    <path d="M180 290 Q400 240 620 290 Q400 280 180 290 Z" fill="#214D36" stroke="#D8A441" stroke-width="2" />
+    <path d="M190 320 Q400 270 610 320" stroke="#316E4F" stroke-width="26" />
+    <!-- Pattern stripe on strap -->
+    <path d="M210 305 Q400 260 590 305" stroke="#D8A441" stroke-width="4" stroke-dasharray="14 10" />
+
+    <!-- Headlamp Tilt Pivot Bracket -->
+    <rect x="330" y="240" width="140" height="90" rx="16" fill="#1C2124" />
+    <!-- Waterproof Seal Ring -->
+    <rect x="340" y="248" width="120" height="74" rx="12" fill="#2E373B" stroke="#D8A441" stroke-width="2" />
+
+    <!-- Main High-Power Convex LED Lens -->
+    <circle cx="380" cy="285" r="24" fill="#E8F8F5" stroke="#7A877E" stroke-width="4" />
+    <circle cx="380" cy="285" r="16" fill="#FFF9D6" />
+    <circle cx="380" cy="285" r="7" fill="#F1C40F" />
+
+    <!-- Red Auxiliary Night-Vision LEDs -->
+    <circle cx="430" cy="275" r="8" fill="#B42318" stroke="#78170F" stroke-width="2" />
+    <circle cx="430" cy="295" r="8" fill="#B42318" stroke="#78170F" stroke-width="2" />
+
+    <!-- Top Ergonomic Power / Mode Button -->
+    <rect x="370" y="235" width="35" height="10" rx="4" fill="#D8A441" />
+
+    <!-- Light Beam Effect (Semi-transparent radiant cone) -->
+    <polygon points="380,285 240,430 460,430" fill="#FFF9D6" opacity="0.35" />
+
+    <!-- Waterproof Rating Tag -->
+    <rect x="495" y="320" width="90" height="24" rx="6" fill="#D8A441" />
+    <text x="540" y="336" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#17251B" text-anchor="middle">IPX6 300LM</text>
+  </g>
+</svg>

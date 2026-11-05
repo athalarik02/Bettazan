@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" fill="none">
+  <!-- Background -->
+  <rect width="800" height="533" fill="#EEF3EE" />
+  <circle cx="400" cy="270" r="210" fill="#E2EBE2" />
+  <!-- Shadow -->
+  <ellipse cx="400" cy="425" rx="260" ry="25" fill="#C5D3C5" />
+  
+  <!-- Tenda 4P Dome Structure -->
+  <g id="tent-4p">
+    <!-- Base / Floor -->
+    <path d="M160 410 L640 410 L580 435 L220 435 Z" fill="#17251B" opacity="0.3" />
+    
+    <!-- Outer Rainfly Main Dome Body (Forest Green PU 3000mm) -->
+    <path d="M170 410 Q400 130 630 410 Z" fill="#214D36" />
+    
+    <!-- Shading Curves on Flysheet -->
+    <path d="M400 150 Q520 280 630 410 L510 410 Q400 240 400 150 Z" fill="#183B29" opacity="0.85" />
+    
+    <!-- Cross Frame Pole Sleeves (High contrast accent) -->
+    <path d="M170 410 Q400 130 630 410" stroke="#D8A441" stroke-width="7" stroke-linecap="round" />
+    <path d="M220 410 Q400 180 580 410" stroke="#B88528" stroke-width="5" stroke-linecap="round" opacity="0.7" />
+
+    <!-- Vestibule Entrance Door (Inner mesh view) -->
+    <path d="M310 410 Q400 220 490 410 Z" fill="#2E6B4B" />
+    <path d="M335 410 Q400 245 465 410 Z" fill="#142C1E" />
+    <!-- Yellow zipper seam -->
+    <path d="M400 245 L400 410" stroke="#F4C76D" stroke-width="3" stroke-dasharray="6 4" />
+
+    <!-- Ventilation Hood with Spreader -->
+    <path d="M350 190 Q400 170 450 190 L400 215 Z" fill="#142C1E" />
+
+    <!-- Guy-lines and Aluminum Stakes -->
+    <line x1="210" y1="360" x2="110" y2="425" stroke="#7A877E" stroke-width="2.5" />
+    <line x1="590" y1="360" x2="690" y2="425" stroke="#7A877E" stroke-width="2.5" />
+    <!-- Stakes -->
+    <polygon points="108,420 115,420 110,438" fill="#D8A441" />
+    <polygon points="688,420 695,420 690,438" fill="#D8A441" />
+
+    <!-- Badge 4 Person -->
+    <rect x="520" y="375" width="85" height="26" rx="6" fill="#D8A441" />
+    <text x="562" y="393" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#17251B" text-anchor="middle">4 ORANG</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Bettazan Betta Fish Gallery",
+  "description": "Website toko dan galeri ikan cupang hias dan kontes (Bettazan) berbasis native HTML, CSS, dan JavaScript murni dengan katalog foto asli (WYSIWYG), filter varietas (Plakat, Halfmoon, Crown Tail, Giant), garansi D.O.A, dan checkout WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" fill="none">
+  <rect width="800" height="533" fill="#EEF3EE" />
+  <circle cx="400" cy="270" r="210" fill="#E2EBE2" />
+  <ellipse cx="400" cy="435" rx="220" ry="22" fill="#C5D3C5" />
+
+  <g id="nesting-set">
+    <!-- Stacked Hard-Anodized Camping Pots (Dark Charcoal Alloy) -->
+    <!-- Large Main Pot (Base) -->
+    <path d="M290 270 L290 390 C290 415, 510 415, 510 390 L510 270 Z" fill="#3A4042" />
+    <ellipse cx="400" cy="270" rx="110" ry="24" fill="#50585B" stroke="#252A2C" stroke-width="3" />
+    <ellipse cx="400" cy="270" rx="102" ry="20" fill="#2E3335" />
+
+    <!-- Folded Heat-Insulated Handles (Orange Silicon Grip) -->
+    <path d="M290 310 L230 310 C215 310, 215 350, 230 350 L290 350" stroke="#E67E22" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M510 310 L570 310 C585 310, 585 350, 570 350 L510 350" stroke="#E67E22" stroke-width="8" stroke-linecap="round" fill="none" />
+
+    <!-- Medium Nested Pot Sitting Inside -->
+    <path d="M320 230 L320 310 C320 330, 480 330, 480 310 L480 230 Z" fill="#4B5356" />
+    <ellipse cx="400" cy="230" rx="80" ry="18" fill="#5F696D" stroke="#252A2C" stroke-width="2" />
+
+    <!-- Non-Stick Frying Pan (Turned Lid on top or next to it) -->
+    <ellipse cx="230" cy="380" rx="65" ry="16" fill="#2E3335" stroke="#E67E22" stroke-width="4" />
+    <line x1="170" y1="380" x2="115" y2="390" stroke="#E67E22" stroke-width="6" stroke-linecap="round" />
+
+    <!-- 2 Small Green Outdoor Serving Bowls -->
+    <path d="M540 370 C540 400, 610 400, 610 370 Z" fill="#214D36" stroke="#D8A441" stroke-width="2" />
+    <ellipse cx="575" cy="370" rx="35" ry="10" fill="#2E6B4B" />
+
+    <path d="M580 380 C580 410, 650 410, 650 380 Z" fill="#214D36" stroke="#D8A441" stroke-width="2" />
+    <ellipse cx="615" cy="380" rx="35" ry="10" fill="#2E6B4B" />
+
+    <!-- Badge -->
+    <rect x="360" y="340" width="80" height="22" rx="4" fill="#D8A441" />
+    <text x="400" y="355" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#17251B" text-anchor="middle">4-IN-1 SET</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" fill="none">
+  <rect width="800" height="533" fill="#EEF3EE" />
+  <circle cx="400" cy="270" r="210" fill="#E2EBE2" />
+  <ellipse cx="400" cy="455" rx="130" ry="18" fill="#C5D3C5" />
+
+  <g id="carrier-45l">
+    <!-- Streamlined 45L Pack -->
+    <rect x="325" y="130" width="150" height="300" rx="26" fill="#2E5C41" />
+    <!-- Pack Hood -->
+    <path d="M315 155 C315 115, 485 115, 485 155 Z" fill="#3D7856" />
+    <rect x="375" y="125" width="50" height="18" rx="4" fill="#D8A441" />
+    <text x="400" y="138" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#17251B" text-anchor="middle">45 LITER</text>
+
+    <!-- Front Zipper Pocket & Daisy Chain -->
+    <line x1="400" y1="180" x2="400" y2="340" stroke="#17251B" stroke-width="4" stroke-dasharray="8 6" />
+    <circle cx="400" cy="180" r="4" fill="#D8A441" />
+    
+    <!-- Compression Straps -->
+    <line x1="315" y1="210" x2="485" y2="210" stroke="#D8A441" stroke-width="3" />
+    <line x1="315" y1="280" x2="485" y2="280" stroke="#D8A441" stroke-width="3" />
+
+    <!-- Trekking pole loops -->
+    <path d="M340 370 Q350 400 360 370" stroke="#D8A441" stroke-width="3" fill="none" />
+    <path d="M440 370 Q450 400 460 370" stroke="#D8A441" stroke-width="3" fill="none" />
+
+    <!-- Side Stretch Pockets -->
+    <rect x="305" y="270" width="25" height="90" rx="6" fill="#1C3D2B" />
+    <rect x="470" y="270" width="25" height="90" rx="6" fill="#1C3D2B" />
+
+    <!-- Padded Hip Fins -->
+    <path d="M325 380 Q250 395 260 425 Q320 425 335 410 Z" fill="#1C3D2B" />
+    <path d="M475 380 Q550 395 540 425 Q480 425 465 410 Z" fill="#1C3D2B" />
+    <rect x="375" y="400" width="50" height="12" rx="4" fill="#D8A441" />
+  </g>
+</svg>

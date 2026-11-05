@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#142C1E" />
+      <stop offset="60%" stop-color="#214D36" />
+      <stop offset="100%" stop-color="#466E53" />
+    </linearGradient>
+    <linearGradient id="mtnBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A5C47" />
+      <stop offset="100%" stop-color="#1B3827" />
+    </linearGradient>
+    <linearGradient id="mtnFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A4B36" />
+      <stop offset="100%" stop-color="#142B1E" />
+    </linearGradient>
+    <linearGradient id="tentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D8A441" />
+      <stop offset="100%" stop-color="#C28929" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="960" height="640" fill="url(#skyGrad)" />
+
+  <!-- Stars / Night particles -->
+  <circle cx="120" cy="80" r="2" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="280" cy="60" r="1.5" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="450" cy="110" r="2.5" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="680" cy="70" r="1.5" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="820" cy="120" r="2" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="200" cy="140" r="1.5" fill="#FFFFFF" opacity="0.5" />
+  <circle cx="580" cy="40" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="750" cy="150" r="1" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- Distant Glowing Moon / Crescent -->
+  <circle cx="830" cy="90" r="28" fill="#F4E8C1" opacity="0.9" />
+  <circle cx="842" cy="84" r="25" fill="#1B3827" opacity="0.95" />
+
+  <!-- Distant Mountain Range -->
+  <path d="M0 380 L180 210 L340 330 L520 180 L680 310 L840 220 L960 300 L960 640 L0 640 Z" fill="url(#mtnBack)" opacity="0.85" />
+  <!-- Snow Peaks -->
+  <polygon points="180,210 150,250 210,250" fill="#E8F1EC" opacity="0.85" />
+  <polygon points="520,180 475,240 565,240" fill="#E8F1EC" opacity="0.85" />
+  <polygon points="840,220 805,265 875,265" fill="#E8F1EC" opacity="0.85" />
+
+  <!-- Closer Ridges & Pine Tree Silhouette -->
+  <path d="M0 430 L220 320 L440 420 L660 330 L880 410 L960 380 L960 640 L0 640 Z" fill="url(#mtnFront)" />
+
+  <!-- Pine Trees Layer -->
+  <g fill="#0F2216">
+    <!-- Tree cluster left -->
+    <polygon points="60,400 40,460 80,460" />
+    <polygon points="60,430 30,500 90,500" />
+    <polygon points="110,380 90,440 130,440" />
+    <polygon points="110,410 80,480 140,480" />
+    <!-- Tree cluster right -->
+    <polygon points="820,380 800,450 840,450" />
+    <polygon points="880,360 860,430 900,430" />
+    <polygon points="760,410 740,470 780,470" />
+  </g>
+
+  <!-- Foreground Camp Ground -->
+  <path d="M0 520 Q480 480 960 520 L960 640 L0 640 Z" fill="#0C1B11" />
+
+  <!-- Camping Tent Setup -->
+  <g transform="translate(360, 410)">
+    <!-- Tent Shadow -->
+    <ellipse cx="120" cy="140" rx="140" ry="24" fill="#050C07" opacity="0.7" />
+    <!-- Outer Flysheet Main Body -->
+    <polygon points="120,10 20,135 220,135" fill="url(#tentGrad)" />
+    <!-- Vestibule Entrance Door (Open flap showing inner tent) -->
+    <polygon points="120,10 70,135 170,135" fill="#214D36" />
+    <polygon points="120,25 90,135 150,135" fill="#112419" />
+    <!-- Warm lantern glow inside tent -->
+    <circle cx="120" cy="115" r="28" fill="#FFE17D" opacity="0.7" />
+    <!-- Guyline cords and stakes -->
+    <line x1="20" y1="135" x2="-25" y2="150" stroke="#E2E8E0" stroke-width="2" />
+    <line x1="220" y1="135" x2="265" y2="150" stroke="#E2E8E0" stroke-width="2" />
+    <circle cx="-25" cy="150" r="3" fill="#D8A441" />
+    <circle cx="265" cy="150" r="3" fill="#D8A441" />
+  </g>
+
+  <!-- Campfire and warm embers -->
+  <g transform="translate(240, 500)">
+    <ellipse cx="40" cy="45" rx="35" ry="12" fill="#050C07" opacity="0.8" />
+    <!-- Firewood logs -->
+    <line x1="15" y1="40" x2="65" y2="48" stroke="#543A21" stroke-width="8" stroke-linecap="round" />
+    <line x1="20" y1="48" x2="60" y2="38" stroke="#402B18" stroke-width="8" stroke-linecap="round" />
+    <!-- Fire flames -->
+    <path d="M38 42 C30 35 28 20 40 5 C52 20 50 35 42 42 Z" fill="#F59E0B" />
+    <path d="M39 42 C33 36 34 25 40 15 C46 25 47 36 41 42 Z" fill="#FEF08A" />
+    <!-- Sparks -->
+    <circle cx="34" cy="2" r="1.5" fill="#FEF08A" />
+    <circle cx="48" cy="-5" r="1.2" fill="#F59E0B" />
+  </g>
+
+  <!-- Hanging Camp Lantern Post -->
+  <g transform="translate(680, 460)">
+    <line x1="0" y1="120" x2="0" y2="0" stroke="#7A877E" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="10" x2="35" y2="15" stroke="#7A877E" stroke-width="4" stroke-linecap="round" />
+    <!-- Lantern -->
+    <rect x="25" y="15" width="20" height="30" rx="4" fill="#1C3827" stroke="#D8A441" stroke-width="2" />
+    <circle cx="35" cy="30" r="7" fill="#FFEAA7" opacity="0.9" />
+  </g>
+</svg>
